@@ -7,7 +7,7 @@ import manutencaoJardins from "../assets/feature-images/manutencao-jardins.jpg";
 import palmeira from "../assets/feature-images/palmeira.jpg";
 import pestControl from "../assets/feature-images/pest-control.jpg";
 import pools from "../assets/feature-images/pools.jpg";
-import rega from "../assets/feature-images/sistema-de-rega.png";
+import rega from "../assets/feature-images/sistema-de-rega.jpg";
 
 
 export const navItems = [
