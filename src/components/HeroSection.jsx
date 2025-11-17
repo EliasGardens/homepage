@@ -4,7 +4,7 @@ import image from "../assets/hero-bg-fallback.jpeg";
 import { MessageCircle } from "lucide-react";
 
 const HeroSection = () => {
-  const phone = "00351936099589"; 
+  const phone = "351936099589"; 
   
   return (
     <section className="relative w-full overflow-hidden">
@@ -20,7 +20,7 @@ const HeroSection = () => {
             <button className="mt-2 sm:mt-3 md:mt-5 rounded-full bg-[#323a2f] sm:bg-[#323a2f]/95 py-2 px-2 sm:px-4 w-fit hover:shadow-lg hover:bg-[#252c22] transform transition duration-200 hover:-translate-y-0.5">
             <a href={`https://wa.me/${phone}`} target="_blank" rel="noopener noreferrer" className='text-[#f1efe7] flex flex-row items-center justify-center gap-2' >
               <MessageCircle className='w-3 h-3 md:w-4 md:h-4'/>
-              <span className='hidden sm:flex text-xs sm:text-base md:text-lg'>Pedir Orçamento</span>
+              <span className='text-xs sm:text-base md:text-lg'>Pedir Orçamento</span>
             </a>
           </button>
         </div>

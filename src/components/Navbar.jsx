@@ -5,7 +5,7 @@ import { useState } from "react"
 
 const Navbar = () => {
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
-  const phone = "00351936099589";
+  const phone = "351936099589";
 
   const toggleNavebar = () => {
     setMobileDrawerOpen(!mobileDrawerOpen);

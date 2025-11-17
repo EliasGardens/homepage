@@ -57,7 +57,7 @@ export const features = [
 
 export const resourcesLinks = [
   { href: "mailto:elias.martins.gardens@gmail.com", text: "Email", icon: <Mail className="w-4 h-4" /> },
-  { href: "https://wa.me/00351936099589", text: "Whatsapp", icon: <Phone className="w-4 h-4" /> },
+  { href: "https://wa.me/351936099589", text: "Whatsapp", icon: <Phone className="w-4 h-4" /> },
   { href: "https://www.instagram.com/elias.gardens/", text: "Instagram", icon: <Instagram className="w-4 h-4" /> },
 ];
 

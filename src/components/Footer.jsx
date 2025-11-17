@@ -21,7 +21,7 @@ const Footer = () => {
             <ul className="mt-3 space-y-1 text-sm text-[#f1efe7]/80">
               <li>Tel / WhatsApp: <a href="https://wa.me/351936099589" className="underline underline-offset-2 hover:text-[#8fa332]">+351 936 099 589</a></li>
               <li>Email: <a href="mailto:elias.martins.gardens@gmail.com" className="underline underline-offset-2 hover:text-[#8fa332]">elias.martins.gardens@gmail.com</a></li>
-              <li>Instagram: <a href="https://www.instagram.com/elias.gardens/" className="underline underline-offset-2 hover:text-[#8fa332]">@elias.martins</a></li>
+              <li>Instagram: <a href="https://www.instagram.com/elias.gardens/" className="underline underline-offset-2 hover:text-[#8fa332]">@elias.gardens</a></li>
               <li>Zona: Algarve</li>
             </ul>
           </div>
