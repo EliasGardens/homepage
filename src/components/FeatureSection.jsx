@@ -4,22 +4,10 @@ import { features } from "../constants";
 const FeatureSection = () => {
   return (
     <section className="px-4 md:px-8 my-16" id="servicos">
-      <motion.div
-        className="max-w-5xl mx-auto"
-        initial={{ opacity: 0, y: 40 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, amount: 0.3 }}
-        transition={{ duration: 0.6, ease: "easeOut" }}
-      >
-        <motion.h2
-          className="text-sm font-semibold tracking-[0.25em] uppercase text-[#6b7467] text-center mb-8"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.6 }}
-          transition={{ duration: 0.5, ease: "easeOut" }}
-        >
+      <div className="max-w-5xl mx-auto">
+        <h2 className="text-sm font-semibold tracking-[0.25em] uppercase text-[#6b7467] text-center mb-8">
           OS NOSSOS SERVIÇOS
-        </motion.h2>
+        </h2>
 
         <div className="space-y-16">
           {features.map((item, index) => {
@@ -78,7 +66,7 @@ const FeatureSection = () => {
             );
           })}
         </div>
-      </motion.div>
+      </div>
     </section>
   );
 };
