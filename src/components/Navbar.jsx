@@ -26,9 +26,9 @@ const Navbar = () => {
                   </li>
               ))}
           </ul>
-          <button className="hidden lg:flex rounded-full border bg-[#323a2f] p-2 w-fit">
+          <button className="hidden lg:flex rounded-full border bg-[#323a2f] p-2 w-fit shadow-md hover:shadow-lg hover:bg-[#252c22] transform transition duration-200 hover:-translate-y-0.5">
             <a
-              href={`https://wa.me/00351936099589${phone}`}
+              href={`https://wa.me/${phone}`}
               target="_blank" rel="noopener noreferrer"
               className='text-[#f1efe7] flex flex-row items-center justify-center gap-2'
             >
@@ -43,15 +43,15 @@ const Navbar = () => {
           </div>
         </div>
         {mobileDrawerOpen && (
-          <div className="fixed right-0 z-20 border-t border-[#323a2f] bg-[#f1efe7] w-full px-12 py-4 flex flex-col justify-center items-center lg:hidden">
-            <ul className='flex flex-col items-center gap-4'>
+          <div className="fixed right-0 z-20 mt-3 border-t border-[#323a2f] backdrop-blur-lg bg-[#f1efe7]/10 w-full px-12 py-4 flex flex-col justify-center items-center lg:hidden">
+            <ul className='flex flex-col items-center gap-4 text-[#f1efe7]'>
               {navItems.map((item, index) => (
                 <li key={index}>
-                  <a href={item.href}>{item.label}</a>
+                  <a href={item.href} className='hover:text-[#8fa332]'>{item.label}</a>
                 </li>
               ))}
             </ul>
-            <button className="mt-4 rounded-full border bg-[#323a2f] p-2 w-fit">
+            <button className="mt-4 rounded-full border bg-[#323a2f] p-2 w-fit shadow-md hover:shadow-lg hover:bg-[#252c22] transform transition duration-200 hover:-translate-y-0.5">
               <a
                 href={`https://wa.me/00351936099589${phone}`}
                 target="_blank" rel="noopener noreferrer"
