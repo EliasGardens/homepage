@@ -53,7 +53,7 @@ const Navbar = () => {
             </ul>
             <button className="mt-4 rounded-full border bg-[#323a2f] p-2 w-fit shadow-md hover:shadow-lg hover:bg-[#252c22] transform transition duration-200 hover:-translate-y-0.5">
               <a
-                href={`https://wa.me/00351936099589${phone}`}
+                href={`https://wa.me/${phone}`}
                 target="_blank" rel="noopener noreferrer"
                 className='text-[#f1efe7] flex flex-row items-center justify-center gap-2'
               >
